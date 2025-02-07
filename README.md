@@ -6,6 +6,7 @@ This is a MERN stack portfolio website built as an assignment. The project inclu
 
 - **Frontend Live Link:** https://portfolio-aniks.netlify.app/
 - **Backend Server Link:** https://portfolio-backend-zeta-ashy.vercel.app/api
+- **Backend API Documentation:** https://documenter.getpostman.com/view/38239023/2sAYX8K1m1
 
 ## 🛠 Tech Stack
 
