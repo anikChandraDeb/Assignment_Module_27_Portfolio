@@ -22,7 +22,40 @@ To access the **Dashboard**, use the following login credentials:
 
 ## 📁 Project Structure
 
-
+ASSIGNMENT_MODULE_27/
+├── backend/
+│   ├── app/
+│   │   ├── config/
+│   │   ├── controllers/
+│   │   ├── middlewares/
+│   │   ├── models/
+│   │   ├── utility/
+│   ├── node_modules/
+│   ├── routes/
+│   ├── storage/
+│   ├── app.js
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── README.md
+│   ├── todo.txt
+│   ├── used_process.txt
+├── frontend/
+│   ├── dist/
+│   ├── node_modules/
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── App.jsx
+│   │   ├── axios.js
+│   │   ├── main.jsx
+│   ├── .gitignore
+│   ├── index.html
+│   ├── netlify.toml
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── README.md
+│   ├── vite.config.js
 
 
 ## 📌 Features
@@ -35,36 +68,40 @@ To access the **Dashboard**, use the following login credentials:
 ## ⚡ Installation and Setup
 
 1. Clone the repository:
-   
-
-bash
+   ```bash
    git clone https://github.com/anikChandraDeb/Assignment_Module_27_Portfolio
-
-
+   ```
 2. Navigate to the project directory:
-   
-
-bash
-   cd Assignment_Module_27_Portfolio
-
-
+   ```bash
+   cd ASSIGNMENT_MODULE_27
+   ```
 3. Install dependencies:
-   
 
-bash
+   **For Backend:**
+   ```bash
+   cd backend
    npm install
+   ```
 
+   **For Frontend:**
+   ```bash
+   cd frontend
+   npm install
+   ```
 
 4. Run the development server:
-   
-(Run backend)
-bash
+
+   **Start Backend Server:**
+   ```bash
    cd backend
    nodemon app.js
-bash
-    cd frontend
-    npm run dev
+   ```
 
+   **Start Frontend Server:**
+   ```bash
+   cd frontend
+   npm run dev
+   ```
 
 
 ## 🏆 Credits
