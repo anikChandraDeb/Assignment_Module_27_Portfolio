@@ -21,7 +21,7 @@ To access the **Dashboard**, use the following login credentials:
 - **Password:** anik1234
 
 ## 📁 Project Structure
-
+```
 ASSIGNMENT_MODULE_27/
 ├── backend/
 │   ├── app/
@@ -56,7 +56,7 @@ ASSIGNMENT_MODULE_27/
 │   ├── package.json
 │   ├── README.md
 │   ├── vite.config.js
-
+```
 
 ## 📌 Features
 
