@@ -10,6 +10,7 @@ import Education from "./Education";
 import CompetitiveProgramming from "./CompetitiveProgramming";
 import ProblemSolving from "./ProblemSolving";
 import Leadership from "./Leadership";
+import Projects from "./Projects";
 
 const Home = () => {
   
@@ -58,6 +59,9 @@ const Home = () => {
       </section>
       <section id="problem-solving">
         <ProblemSolving />
+      </section>
+      <section id="projects">
+        <Projects/>
       </section>
       <section id="education">
         <Education />
