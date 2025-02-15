@@ -27,7 +27,7 @@ export const getBlogById = async (req, res) => {
 
 export const blogCount = async (req, res) => {
     try {
-        console.log('invoke')
+        //console.log('invoke')
         const count = await Blog.countDocuments(); 
         res.json({ count });
       } catch (error) {
@@ -38,10 +38,11 @@ export const blogCount = async (req, res) => {
 
 export const createBlog = async (req, res) => {
     try {
-        const { title, content } = req.body;
+        const { title, content,image } = req.body;
         const newBlog = new Blog({
             title,
             content,
+            image,
             createdBy: req.headers.email, 
             userId: req.headers.user_id  
         });

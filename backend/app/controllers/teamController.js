@@ -33,17 +33,21 @@ export const teamCount = async (req, res) => {
 
 export const createTeamMember = async (req, res) => {
     try {
-        const { name, description } = req.body;
+        const { name, description,image } = req.body;
+        
         const newTeamMember = new Team({
             name,
             description,
+            image,
             createdBy: req.headers.email, 
             userId: req.headers.user_id  
         });
 
+
         await newTeamMember.save();
         res.status(201).json(newTeamMember);
     } catch (error) {
+
         res.status(500).json({ message: error.message });
     }
 };

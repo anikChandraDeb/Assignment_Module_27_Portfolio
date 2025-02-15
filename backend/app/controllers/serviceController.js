@@ -31,12 +31,13 @@ export const serviceCount = async (req, res) => {
 
 export const createService = async (req, res) => {
     try {
-        console.log('invoke')
-        const { title, description } = req.body;
+        //console.log('invoke')
+        const { title, description,image } = req.body;
 
         const newService = new Service({
             title,
             description,
+            image,
             createdBy: req.headers.email, 
             userId: req.headers.user_id  
         });
