@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
 import { Link as RouterLink, useLocation } from 'react-router-dom';
-import { HashLink } from "react-router-hash-link";
+
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 const Navbar = () => {
