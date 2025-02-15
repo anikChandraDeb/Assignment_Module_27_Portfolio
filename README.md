@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This is a MERN stack portfolio website built as an assignment. The project includes both frontend and backend development, hosted on Netlify and Vercel, respectively.
+Developed a full-stack portfolio website as a personal project, showcasing skills and experience. The website includes dynamic pages like Home, About, Blog, Services, and Contact, along with a private dashboard for CRUD operations on content. 
 
 ## 🚀 Live Links
 
